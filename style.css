@@ -1,7 +1,7 @@
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+	margin: 30px 30px;
+	background: #DBA;
 }
 
 #header
@@ -16,7 +16,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #A00;
 }
 
 #navigation ul
@@ -36,8 +36,8 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
+	color: #AFC;
+	text-decoration: #AF5
 	border-right: 1px solid #fff;
 }
 
@@ -62,7 +62,7 @@
 
 #edito h2
 {
-	color: #000;
+	color: #A6F;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -88,7 +88,7 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #DA8;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
