@@ -1,13 +1,21 @@
 #container
 {
-	margin: 30px 30px;
-	background: #DBA;
+	margin: 0 30px;
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#696969;
 }
 
 #header
 {
-	background: #ccc;
+	background: #134152;
+	color: white;
 	padding: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 
 #header h1 { margin: 0; }
@@ -16,7 +24,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #A00;
+	background: #333;
 }
 
 #navigation ul
@@ -36,8 +44,8 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #AFC;
-	text-decoration: #AF5
+	color: #fff;
+	text-decoration: none;
 	border-right: 1px solid #fff;
 }
 
@@ -58,11 +66,12 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	color:white;
+	background-color:#0B252E;
 }
 
 #edito h2
 {
-	color: #A6F;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -83,13 +92,35 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	color:white;
+	background-color:#0B252E;
+	
+}
+
+#news h2{
+color:#8D8D8D;
+}
+
+#edito h2{
+color:#8D8D8D;
 }
 
 #footer
 {
 	clear: both;
-	background: #DA8;
+	background: #134152;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+a{
+color:#8D8D8D;
+}
+
+a:hover{
+color:#fff;
 }
